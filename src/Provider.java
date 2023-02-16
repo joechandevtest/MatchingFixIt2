@@ -28,6 +28,22 @@ public class Provider {
 
     }
 
+    public int getJobCharge() {
+        return jobCharge;
+    }
+
+    public String getServiceLocation() {
+        return serviceLocation;
+    }
+
+    public boolean isAvailableNow() {
+        return availableNow;
+    }
+
+    public Skillset getSkill() {
+        return skill;
+    }
+
     @Override
     public String toString() {
         return "Provider{" +
