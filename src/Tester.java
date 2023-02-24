@@ -5,7 +5,7 @@ public class Tester {
         UserList vancouverMarketplace = new UserList("Vancouver Market", "Vancouver");
         UserList richmondMarketplace = new UserList("Richmond Contractor", "Richmond");
 
-        System.out.println(vancouverMarketplace);
+        System.out.println(vancouverMarketplace + "is printed");
         System.out.println(richmondMarketplace);
 
         System.out.println("//////////\n");
