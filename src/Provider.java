@@ -13,7 +13,7 @@ public class Provider {
         PLUMBER, ELECTRICIAN, PAINTER
     }
 
-    //private ArrayList<Skillset> SkillsHold;
+//    private ArrayList<Skillset> SkillsHold;
 
     public Provider(String name, Skillset skill, String serviceLocation, int jobCharge, boolean availableNow){
         this.name = name;
@@ -24,8 +24,6 @@ public class Provider {
         this.availableNow = availableNow;
         this.contractorNum = accumulatedContractorNum;
         accumulatedContractorNum++;
-
-
     }
 
     public int getJobCharge() {

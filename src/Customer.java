@@ -8,13 +8,13 @@ public class Customer {
     private static int accumulatedCustomerNum = 100;
     private int customerNum;
 
-    private ProblemSet solver;
-    public enum ProblemSet{
+    private Skillset solver;
+    public enum Skillset{
         PLUMBER, ELECTRICIAN, PAINTER
     }
 
 
-    public Customer(String name, ProblemSet solver, String serviceLocation, int jobPay, boolean serviceNow){
+    public Customer(String name, Skillset solver, String serviceLocation, int jobPay, boolean serviceNow){
         this.name = name;
         //this.SkillsHold = new ArrayList<>(); //how to add multiple values in the tester in single line
         this.solver = solver;
@@ -29,7 +29,7 @@ public class Customer {
         return jobPay;
     }
 
-    public ProblemSet getSolver() {
+    public Skillset getSolver() {
         return solver;
     }
 
